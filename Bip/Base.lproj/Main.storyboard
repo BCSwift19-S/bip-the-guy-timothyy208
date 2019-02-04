@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="300x300" translatesAutoresizingMaskIntoConstraints="NO" id="pVY-AI-BDb">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="300x300" translatesAutoresizingMaskIntoConstraints="NO" id="pVY-AI-BDb">
                                 <rect key="frame" x="20" y="44" width="374" height="505"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="OIN-Ty-uEb" appends="YES" id="M5e-QC-99Q"/>
+                                    <outletCollection property="gestureRecognizers" destination="uy7-h7-MBc" appends="YES" id="B3g-ZY-dff"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose Image to Punch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyN-hW-vaa">
@@ -62,9 +62,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="OIN-Ty-uEb">
+                <tapGestureRecognizer id="uy7-h7-MBc">
                     <connections>
-                        <action selector="imageTapped:" destination="BYZ-38-t0r" id="SR6-MJ-MCm"/>
+                        <action selector="imageTapped:" destination="BYZ-38-t0r" id="1Zv-eq-7fI"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

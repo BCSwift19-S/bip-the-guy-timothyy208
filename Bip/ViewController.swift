@@ -30,8 +30,10 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
-    }
+
     
+    @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
+        animateImage()
+    }
 }
 
