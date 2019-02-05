@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     
     @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
         animateImage()
+        //
     }
 }
 
