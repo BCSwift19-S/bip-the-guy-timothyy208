@@ -65,6 +65,7 @@ class ViewController: UIViewController {
         animateImage()
         playSound(soundName: "punchSound", audioPlayer: &audioPlayer)
         //
+        
     }
 }
 
