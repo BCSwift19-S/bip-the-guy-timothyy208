@@ -53,7 +53,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func playSound(soundName: String, audioPlayer: inout AVAudioPlayer){
         //var soundName: String
         //sound
-        
+         
         
         if let sound = NSDataAsset(name: soundName) {
             do {
